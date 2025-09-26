@@ -7,7 +7,7 @@ require_once __DIR__ . '/vendor/autoload.php';
 require_once "stats.php";
 require_once "card.php";
 
-$dotenv = \Dotenv\Dotenv::createImmutable(__DIR__);
+$dotenv = \Dotenv\Dotenv::createImmutable(dirname(__DIR__));
 $dotenv->safeLoad();
 
 // if environment variables are not loaded, display error
