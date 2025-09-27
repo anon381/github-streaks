@@ -4,7 +4,6 @@ declare(strict_types=1);
 
 use PHPUnit\Framework\TestCase;
 
-// load functions
 require_once "src/card.php";
 
 final class RenderTest extends TestCase
